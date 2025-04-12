@@ -5,9 +5,8 @@
 /vendor/
 
 # Laravel environment files
-# Uncommented to see the database configs
-# .env
-# .env.*  # For .env.testing, .env.local, etc.
+.env
+.env.*  # For .env.testing, .env.local, etc.
 
 # Laravel logs and cache
 /storage/*.key
