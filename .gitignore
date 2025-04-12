@@ -1,0 +1,46 @@
+# Node dependencies
+/node_modules/
+
+# Composer dependencies
+/vendor/
+
+# Laravel environment files
+# Uncommented to see the database configs
+# .env
+# .env.*  # For .env.testing, .env.local, etc.
+
+# Laravel logs and cache
+/storage/*.key
+/storage/*.log
+/storage/app/*
+/storage/framework/*
+/storage/logs/*
+
+# But keep storage/app/public (e.g. for file uploads)
+!storage/app/public/
+
+# Ignore Laravel cache files
+/bootstrap/cache/*.php
+
+# Ignore IDE/editor configs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# PHPUnit result cache
+.phpunit.result.cache
+
+# Optional: ignore compiled assets if not versioned
+/public/hot
+/public/storage
+/public/mix-manifest.json
+/public/js
+/public/css
+
+# Optional: Laravel Sail Docker stuff
+docker-compose.override.yml
